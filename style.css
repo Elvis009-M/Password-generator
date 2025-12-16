@@ -1,0 +1,174 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #f4a460, #fa8072);
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    font-size: 15pt;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 1rem;
+    flex: 2;
+}
+
+header img {
+    width: 70px ;
+    height: 70px ;
+    border-radius: 50%;
+}
+
+main {
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.container {
+    background: #fff;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.95em;
+}
+
+.length-control {
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    background-color: #2ebf91;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #249e7d;
+}
+
+.copy-btn {
+    background-color: #555;
+    margin-top: 10px;
+}
+
+.copy-btn:hover {
+    background-color: #333;
+}
+
+.message {
+    text-align: center;
+    color: green;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+
+
+footer {
+    background-color: #f48072;
+    width: 100%;
+    line-height: .9;
+    padding: 1.6rem 0;
+    text-shadow: 5px 4px 8px purple;
+    text-align: center;
+}
+
+footer .pair{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .footerlink {
+    text-decoration: none;
+    color: yellow;
+    border-radius: 10px;
+    padding: .3rem .8rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+footer .footerlink:hover {
+    background-color: #fd8c7d;
+}
+
+footer p {
+    display: inline-block;
+    text-align: center;
+    user-select: none;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-shadow: 2px 3px 6px rgba(0, 0, 0, .7);
+}
+footer p:hover {
+    color: white;
+}
+
+footer .pair .footerbutton img {
+    width: 40px;
+    height: 40px;
+    border-radius: 25%;
+}
+footer .pair .footerbutton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 15px rgba(0, 200, 250, 0.4);
+}
+
+
+
+
+
+
+
+
+
+/* -------        MEDIA QUERIES FOR DEVICES WITH SMALL WIDTH   --------- */
+@media (max-width: 768px) {
+    .container {
+        max-width: 300px;
+    }
+}
