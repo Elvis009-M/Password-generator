@@ -185,6 +185,6 @@ footer .pair .footerbutton:hover {
 /* -------        MEDIA QUERIES FOR DEVICES WITH SMALL WIDTH   --------- */
 @media (max-width: 768px) {
     .container {
-        max-width: 270px;
+        max-width: 250px;
     }
 }
